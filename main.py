@@ -1,2 +1,2 @@
-
+import controller
 controller.run()
