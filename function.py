@@ -2,7 +2,7 @@ import file_operation
 import Note
 import ui
 
-number = 6  # сколько знаков МИНИМУМ может быть в тексте заметки
+number = 6  # минимальная заметка
 
 
 def add():
@@ -13,7 +13,7 @@ def add():
             Note.Note.set_id(note)
     array.append(note)
     file_operation.write_file(array, 'a')
-    print('Заметка добавлена...')
+    print('Заметка добавлена.')
 
 
 def show(text):
